@@ -1,0 +1,2 @@
+# Bladez
+BB Script
