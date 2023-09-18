@@ -1,6 +1,5 @@
--- whomever reads this, just know i run you
--- made this for funz
-
+-- to whomever see's this
+-- i love u
 local UserInputService = game:GetService("UserInputService")
 
 local function isPlayerOnMobile()
@@ -89,7 +88,7 @@ local AutoParry = Window:CreateTab("Auto Parry", 13014537525)
 local Main = Window:CreateTab("Main", 13014546637)
 local Misc = Window:CreateTab("Misc", 13014546637)
 local AutoOpen = Window:CreateTab("Auto Open", 13014546637)
-local Misc2 = Window:CreateTab("Misc2", 13014546637)
+local Trolling = Window:CreateTab("Trolling", 13014546637)
 local Skins = Window:CreateTab("Skins", 13014546637)
 
 local function startAutoParry()
@@ -247,7 +246,7 @@ local Destroyui = AutoParry:CreateButton({
 local Descrip = AutoParry:CreateButton({
    Name = "Credits (Click)",
    Callback = function()
-notify("Credits", "Auto Parry By Aegians (Github User) (whos this nigga toilets", 5)
+notify("Credits", "Auto Parry By Aegians (Github User)", 5)
 end
 })
 
@@ -1422,25 +1421,25 @@ local dafukinrapture = Misc:CreateButton({
 end
 })
 
-local emotes = Misc2:CreateSection("Emotes")
+local emotes = Trolling:CreateSection("Emotes")
 
-local EmoteEffect = Misc2:CreateButton({
+local EmoteEffect = Trolling:CreateButton({
    Name = "Gamepass Emote Effect + Music (everyone sees), Credit to idk who",
    Callback = function()
    local args = {[1] = true,[2] = "Empyrean"}game:GetService("ReplicatedStorage").Remotes.CustomEmote:FireServer(unpack(args))
 end
 })
 
-local ActualEmote = Misc2:CreateButton({
+local ActualEmote = Trolling:CreateButton({
    Name = "Gamepass Emote (Press R, after pressing button), Everyone sees",
    Callback = function()
    character:FindFirstChildOfClass("Model").Name = "Empyrean Greatblade"
 end
 })
 
-local Funnythingslol = Misc2:CreateSection("Funny Thing")
+local Funnythingslol = Trolling:CreateSection("Funny Thing")
 
-local EquipTelekinesis = Misc2:CreateButton({
+local EquipTelekinesis = Trolling:CreateButton({
    Name = "Equip Telekinesis",
    Callback = function()
 
@@ -1456,7 +1455,7 @@ game:GetService("ReplicatedStorage").Remotes.kebaind:FireServer()
 end
 })
 
-local BreakBall = Misc2:CreateButton({
+local BreakBall = Trolling:CreateButton({
    Name = "Break Ball (You need telekinesis owned)",
    Callback = function()
     
@@ -1464,7 +1463,7 @@ local BreakBall = Misc2:CreateButton({
 end
 })
 
-local BreakBallToggle = Misc2:CreateToggle({
+local BreakBallToggle = Trolling:CreateToggle({
    Name = "Auto Break Ball",
    CurrentValue = false,
    Flag = "IDballerloldfaf", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
@@ -1486,7 +1485,7 @@ local BreakBallToggle = Misc2:CreateToggle({
    end,
 })
 
-local AutoTelekinesis = Misc2:CreateToggle({
+local AutoTelekinesis = Trolling:CreateToggle({
    Name = "Auto Telekinesis (money farm)",
    CurrentValue = false,
    Flag = "AutoT21321elekinesis", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
@@ -1533,7 +1532,7 @@ game:GetService("ReplicatedStorage").Remotes.Telekinesis:FireServer(unpack(args)
    end,
 })
 
-local UseTelekines = Misc2:CreateButton({
+local UseTelekines = Trolling:CreateButton({
    Name = "Use telekinesis (even from lobby) (Must own telekinesis)",
    Callback = function()
 
@@ -1564,7 +1563,7 @@ game:GetService("ReplicatedStorage").Remotes.Telekinesis:FireServer(unpack(args)
 end
 })
 
-local ResetCD = Misc2:CreateButton({
+local ResetCD = Trolling:CreateButton({
    Name = "Reset Cooldown",
    Callback = function()
     character.HumanoidRootPart.CFrame = CFrame.new(-10002.240021, 123.299988, 200.441544)
