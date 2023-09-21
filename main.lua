@@ -1,8 +1,5 @@
 -- to whomever see's this
 -- i love u
- local Player = game.Players:GetPlayerFromCharacter(hit.Parent)
- Player:kick("qtchr_is")
-    end
 local UserInputService = game:GetService("UserInputService")
 
 local function isPlayerOnMobile()
