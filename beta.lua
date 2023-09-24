@@ -36,7 +36,7 @@ local ManualParry = ScriptOptions:AddButton({
     end,
 })
 
-local ManualParry = ScriptOptions:AddButton({
+local Extra = ScriptOptions:AddButton({
     Title = "IY Admin",
     Description = "Infinite Yiff admin commands",
     Callback = function()
