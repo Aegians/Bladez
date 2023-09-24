@@ -41,7 +41,6 @@ local Extra = ScriptOptions:AddButton({
     Description = "Infinite Yiff admin commands",
     Callback = function()
        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
-        Window:Destroy() 
     end,
 })
 
