@@ -36,6 +36,15 @@ local ManualParry = ScriptOptions:AddButton({
     end,
 })
 
+local ManualParry = ScriptOptions:AddButton({
+    Title = "IY Admin",
+    Description = "Infinite Yiff admin commands",
+    Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source', true))()
+        Window:Destroy() 
+    end,
+})
+
 
 SaveManager:SetLibrary(Fluent)
 InterfaceManager:SetLibrary(Fluent)
