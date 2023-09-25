@@ -42,7 +42,7 @@ local Rayfield = loadstring(game:HttpGet(RayfieldURL))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Blade Ball",
-   LoadingTitle = "Aegians Blade Ball",
+   LoadingTitle = "da cum tribute",
    LoadingSubtitle = "by Aegians",
    ConfigurationSaving = {
       Enabled = false,
