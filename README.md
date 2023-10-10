@@ -20,3 +20,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Aegians/Bladez/main/A
 ```
 
 # Special thanks to the cum tribute gc
+<img width="913" alt="image" src="https://github.com/Aegians/Bladez/assets/69432633/4562eec0-ca04-47d5-97c0-c5f193f6f93d">
