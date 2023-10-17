@@ -20,4 +20,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Aegians/Bladez/main/A
 ```
 
 # Special thanks to the cum tribute gc
-<img width="913" alt="image" src="https://github.com/Aegians/Bladez/assets/69432633/4562eec0-ca04-47d5-97c0-c5f193f6f93d">
+[<img src="https://github.com/Aegians/Bladez/assets/69432633/27a5089c-f394-49b8-a59e-bcf5e7d88141" width="50%">](https://streamable.com/w5gu0q "Preview: 55")
+
+
+
